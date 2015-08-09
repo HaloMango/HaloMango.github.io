@@ -1,0 +1,48 @@
+footer {
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-hover !important;
+      text-decoration: none;
+    }
+  }
+
+	margin-top: 5em;
+  border-top: 0.25em solid lighten($black, 3%);
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-family: $font-stack;
+  color: $primary-color;
+  text-align: center;
+  background: $black;
+
+  .wrapper-footer {
+    margin: 0 auto;
+    width: 70%;
+
+    a { color: darken($primary-color, 50%); }
+
+    .social a:hover::before { content: "| "; }
+
+  }
+
+  .social,
+  .careers,
+  .legal,
+  .partners {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    display: inline-block;
+
+    li { text-align: left; }
+  }
+
+  h5 {
+    text-transform: uppercase;
+
+    a { color: $primary-color !important; }
+  }
+}

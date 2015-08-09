@@ -1,0 +1,30 @@
+/*
+Author: George Matthew Li
+Author URL: https://gmwli.github.io
+*/
+
+@font-face {
+  font-family: "ShareTechMono";
+  src: url("../fonts/Share_Tech_Mono/ShareTechMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+$font-stack: "ShareTechMono", "sans-serif";
+$primary-color: white;
+$background-color: #181818;
+$background-black: rgba(0,0,0,0.3);
+$black: #181818;
+$blue-glow: #0DAAFF;
+$gun-metal: #2C3539;
+$green-highlight: #07dd86;
+$link-hover: darken($blue-glow, 15%);
+$red-light: #CB003D;
+$red-dark: #A40032;
+
+//Page highlight color
+::-webkit-selection { background: $green-highlight; }
+
+::-moz-selection { background: $green-highlight; }
+
+::selection { background: $green-highlight; }

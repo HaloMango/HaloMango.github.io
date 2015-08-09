@@ -1,0 +1,113 @@
+.about-devs {
+  position: relative;
+  margin-bottom: 1em !important;
+  display: block;
+  padding-left: 8em !important;
+  padding-right: 8em !important;
+  color: $primary-color;
+  font-size: 15px;
+  font-family: $font-stack;
+  text-align: center;
+
+  h1 {
+    margin: 0;
+    padding-left: 0.5em;
+    padding-top: 0.1em;
+    color: $primary-color;
+    font-size: 50px;
+    text-align: left;
+    text-transform: uppercase;
+    background: darken($gun-metal, 7%);
+  }
+
+  li { color: $primary-color; }
+
+  h4 {
+    margin: 0;
+    padding-bottom: 0.2em;
+    font-weight: 700;
+  }
+
+  a:hover { text-decoration: none; }
+}
+
+
+//Seperated from the above nesting so they're excluded from extentions
+.about-devs img {
+    margin: 0;
+    margin-bottom: 2em;
+    display: inline-block;
+}
+
+.about-devs .col-md-4 {
+    margin-bottom: 5em !important;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    background: $background-black;
+}
+
+.about-game,
+.about-media,
+.page-careers,
+.page-multiplayer,
+.page-legal {
+  @extend .about-devs;
+  text-align: left;
+
+  p {
+    margin-bottom: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1.8em;
+    padding-right: 1.8em;
+    background: $background-black;
+  }
+}
+
+.media {
+  margin: 0 !important;
+  margin-bottom: 5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background: $background-black;
+
+  .img-container {
+    position: relative;
+    display: inline-block;
+    width: 15em;
+    height: 15em;
+    overflow: hidden;
+
+    img {
+      position: relative;
+      z-index: 1;
+      -webkit-transition: 0.25s ease-in-out;
+         -moz-transition: 0.25s ease-in-out;
+              transition: 0.25s ease-in-out;
+    }
+
+    a {
+      position: absolute;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      padding-top: 45%;
+      color: $primary-color;
+      text-align: center;
+      background: rgba(0,0,0,0.55);
+    }
+
+    &:hover {
+      background: black !important;
+      img {
+        -webkit-transform: scale(1.2);
+           -moz-transform: scale(1.2);
+                transform: scale(1.2);
+      }
+    
+      a { z-index: 2; }
+    }
+  }
+}
