@@ -16,6 +16,7 @@ https://github.com/HaloMango/HaloMango.github.io
   
 ##Todo List:
 * Game Release
+* Change artwork to fit game (background, header image, etc)
 * Fix 'routing' issue with fragments
 * Parse new lines in json
 * Minify css and js
