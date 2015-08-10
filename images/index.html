@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-s">
+<html lang="en-us">
 <head>
   <meta charset="UTF-8">
   <title></title>
@@ -7,8 +7,9 @@
 <body>
   <script>
   	var url = window.location.href;
-  	var baseURL = url.split("/")[0];
-    window.open(baseURL, "_self");
+  	var base = url.split("/images")[0];
+  	console.log(base);
+    window.open(base, "_self");
   </script>
 </body>
 </html>
