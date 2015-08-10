@@ -218,7 +218,8 @@ button, button:hover {
   position: relative;
   z-index: 1;
   margin: 0;
-  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
   display: block;
   color: $primary-color;
   font-family: $font-stack;
@@ -283,9 +284,9 @@ button, button:hover {
 
 #img-hero {
   position: absolute;
-  -webkit-transform: translateX(-10em) translateY(-18em) rotate(20deg);
-     -moz-transform: translateX(-10em) translateY(-18em) rotate(20deg);
-          transform: translateX(-10em) translateY(-18em) rotate(20deg);
+  -webkit-transform: translateX(-8em) translateY(-22em) rotate(20deg);
+     -moz-transform: translateX(-8em) translateY(-22em) rotate(20deg);
+          transform: translateX(-8em) translateY(-22em) rotate(20deg);
   z-index: 0;
 }
 
