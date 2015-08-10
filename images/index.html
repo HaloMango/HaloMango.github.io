@@ -6,7 +6,9 @@
 </head>
 <body>
   <script>
-    window.open("../index.html");
+  	var url = window.location.href;
+  	var baseURL = url.split("#")[0];
+    window.open(baseURL, "_self");
   </script>
 </body>
 </html>
