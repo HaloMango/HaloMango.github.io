@@ -199,14 +199,6 @@ button, button:hover {
   padding-top: 0.65em !important;
   padding-bottom: 0.65em !important;
 
-  -webkit-box-shadow: 0 0 5em $black !important;
-     -moz-box-shadow: 0 0 5em $black !important;
-          box-shadow: 0 0 5em $black !important;
-
-  -webkit-transition: 0.2s ease-in-out;
-     -moz-transition: 0.2s ease-in-out;
-          transition: 0.2s ease-in-out;
-
   .power-arrow {
     -webkit-transform: rotate(45deg);
        -moz-transform: rotate(45deg);
@@ -306,6 +298,6 @@ button, button:hover {
 @import "home";
 @import "about_contact_multiplayer";
 
-.push { height: 5em; }
+.push { height: 20em; }
 
 @import "footer";

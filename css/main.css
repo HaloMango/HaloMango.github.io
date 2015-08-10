@@ -241,13 +241,7 @@ button, button:hover {
     opacity: 1; } }
 .js-nav-shrink {
   padding-top: 0.65em !important;
-  padding-bottom: 0.65em !important;
-  -webkit-box-shadow: 0 0 5em #181818 !important;
-  -moz-box-shadow: 0 0 5em #181818 !important;
-  box-shadow: 0 0 5em #181818 !important;
-  -webkit-transition: 0.2s ease-in-out;
-  -moz-transition: 0.2s ease-in-out;
-  transition: 0.2s ease-in-out; }
+  padding-bottom: 0.65em !important; }
   .js-nav-shrink .power-arrow {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -507,7 +501,7 @@ button, button:hover {
 .page-multiplayer,
 .page-legal {
   position: relative;
-  margin-bottom: 1em !important;
+  margin-bottom: 5em !important;
   display: block;
   padding-left: 8em !important;
   padding-right: 8em !important;
@@ -527,7 +521,7 @@ button, button:hover {
     font-size: 50px;
     text-align: left;
     text-transform: uppercase;
-    background: #1c2225; }
+    background: #161a1c; }
   .about-devs li, .about-game li,
   .about-media li,
   .page-careers li,
@@ -563,7 +557,6 @@ button, button:hover {
 .page-careers .col-md-4,
 .page-multiplayer .col-md-4,
 .page-legal .col-md-4 {
-  margin-bottom: 5em !important;
   padding-top: 3em;
   padding-bottom: 2em;
   background: rgba(0, 0, 0, 0.3); }
@@ -579,7 +572,6 @@ button, button:hover {
   .page-careers p,
   .page-multiplayer p,
   .page-legal p {
-    margin-bottom: 5em;
     padding-top: 2em;
     padding-bottom: 2em;
     padding-left: 1.8em;
@@ -625,7 +617,7 @@ button, button:hover {
         z-index: 2; }
 
 .push {
-  height: 5em; }
+  height: 20em; }
 
 footer {
   margin-top: 5em;

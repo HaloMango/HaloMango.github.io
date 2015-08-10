@@ -1,5 +1,4 @@
 footer {
-
   a {
     color: $primary-color;
     text-decoration: none;
@@ -26,7 +25,6 @@ footer {
     a { color: darken($primary-color, 50%); }
 
     .social a:hover::before { content: "| "; }
-
   }
 
   .social,
