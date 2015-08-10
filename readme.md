@@ -6,9 +6,12 @@ Platforms: Windows, OS X, Linux
 
 Project-RW is a codename for a game and its website - both currently in their early stages of development.
 
-Find the game and website progress here (Tentative Home):  
+##Website Home (Tentative)  
 https://HaloMango.github.io  
 https://github.com/HaloMango/HaloMango.github.io
+
+##Game Progress
+https://github.com/gmwli/RoboWorld  
 
 ##Website Challenge:
 * Write everything from scratch with no frameworks except Bootstrap  
