@@ -3,6 +3,7 @@ $(document).ready(function() {
   //URL Variables.  The Math.Random() query is appended to the file
   //locations in order to ensure we do not load a cached version.
   var url = window.location.href;
+  var baseURL = url.split("#")[0];
   var aboutURL = "about.html?t=" + Math.random();
   var multiplayerURL = "multiplayer.html?t=" + Math.random();
   var careersURL = "careers.html?t=" + Math.random();
@@ -71,7 +72,7 @@ $(document).ready(function() {
   //Choose which page to load when selected
   $("[href='#home']").click(function() {
     //If there's a fragment, remove it.
-    window.open (url.split("#")[0], "_self");
+    window.open (baseURL, "_self");
   });
   $("[href='#about']").click(function() {
     document.title = "GameName | About";
