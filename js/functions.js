@@ -70,7 +70,8 @@ $(document).ready(function() {
 
   //Choose which page to load when selected
   $("[href='#home']").click(function() {
-    window.open (url, "_self");
+    //If there's a fragment, remove it.
+    window.open (url.split("#")[0], "_self");
   });
   $("[href='#about']").click(function() {
     document.title = "GameName | About";
